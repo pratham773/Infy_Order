@@ -1,5 +1,11 @@
 package com.capstone.infyorders.repository;
 
-public interface orderRepository {
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.capstone.infyorders.entity.orderEntity;
+
+@Repository
+public interface orderRepository extends CrudRepository<orderEntity, String>{
 
 }
