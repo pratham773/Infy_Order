@@ -1,0 +1,16 @@
+
+
+INSERT INTO `orders` (`id`, `created_date`, `num_of_products`, `shipping_to`, `total`, `updated_date`, `user_id`) VALUES ('1', '2021-07-07 09:21:33.000000', '3', '472/A, 17th D Main, 3rd Sector, HSR Layout, Bangalore - 560102', '300', '2021-07-07 09:21:33.000000', '1'), ('2', '2021-07-07 09:21:33.000000', '4', '472/A, 17th D Main, 3rd Sector, HSR Layout, Bangalore - 560102', '400', '2021-07-07 09:21:33.000000', '1');
+
+
+INSERT INTO `order_items` 
+(`id`, `cancel_eligible`, `created_date`, `delivery_date`, `order_id`, `price`, `product_id`, `product_review_eligible`, `quantity`, `return_eligible`, `seller_id`, `seller_name`, `seller_review_eligible`, `status`, `updated_date`) VALUES
+('1', '0', '2021-07-07 09:23:56.000000', '2021-07-07 09:23:56.000000', '1', '100', '1', '1', '1', '1', '1', 'Yogesh', '1', '1', '2021-07-07 09:23:56.000000'),
+('2', '0', '2021-07-07 09:23:56.000000', '2021-07-07 09:23:56.000000', '1', '100', '2', '1', '1', '1', '1', 'Yogesh', '1', '1', '2021-07-07 09:23:56.000000'),
+('3', '0', '2021-07-07 09:23:56.000000', '2021-07-07 09:23:56.000000', '1', '100', '3', '1', '1', '1', '1', 'Yogesh', '1', '1', '2021-07-07 09:23:56.000000'),
+('4', '0', '2021-07-07 09:23:56.000000', '2021-07-07 09:23:56.000000', '2', '100', '4', '1', '1', '1', '1', 'Yogesh', '1', '1', '2021-07-07 09:23:56.000000'),
+('5', '0', '2021-07-07 09:23:56.000000', '2021-07-07 09:23:56.000000', '2', '100', '5', '1', '1', '1', '1', 'Yogesh', '1', '1', '2021-07-07 09:23:56.000000'),
+('6', '0', '2021-07-07 09:23:56.000000', '2021-07-07 09:23:56.000000', '2', '100', '6', '1', '1', '1', '1', 'Yogesh', '1', '1', '2021-07-07 09:23:56.000000'),
+('7', '0', '2021-07-07 09:23:56.000000', '2021-07-07 09:23:56.000000', '2', '100', '7', '1', '1', '1', '1', 'Yogesh', '1', '1', '2021-07-07 09:23:56.000000')
+
+INSERT INTO `products` (`id`, `category`, `image`, `name`, `price`) VALUES ('1', 'Electronics', 'https://www.online-tech-tips.com/wp-content/uploads/2019/12/electronic-gadgets.jpeg', 'Electronic Gadget 1', '100'), ('2', 'Electronics', 'https://www.mylaphotographer.com/wp-content/gallery/electronics-1/product-photographer-electronics-3.jpg?x28909', 'Electronic Gadget 2', '100'), ('3', 'Fashion', 'https://res.cloudinary.com/webstore/image/fetch/w_450,c_limit,c_fit,f_auto,e_trim/https%3A%2F%2Fae01.alicdn.com%2Fkf%2FHTB1MzOdXUz1gK0jSZLeq6z9kVXan%2FWomen-Summer-Dress-Boho-Style-Floral-Print-Mini-Dress-Sexy-Off-the-Shoulder-Ruffle-Chiffon-Beach.jpg', 'Electronic Gadget 4', '100'), ('4', 'Fashion', 'https://media.istockphoto.com/photos/flowery-evase-bateau-yellow-dress-picture-id178851955?k=6&m=178851955&s=612x612&w=0&h=GRUhSYYI1DFrLLhigSbEmFBJ8eBUPgtO5p1M4iaYpvg=', 'Top 1', '100'), ('5', 'Electronics', 'http://nextronlab.com/wp-content/uploads/2016/08/laptop.jpg', 'Electronic Gadget 3', '100'), ('6', 'Fashion', 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/reformation-summer-dress-1622627984.jpeg?crop=1xw:1xh;center,top&resize=480:*', 'Top 2', '100'), ('7', 'Furniture', 'https://www.royaloakindia.com/thumbimages/xarcherqueenbedliftupstoragedesktop533.webp.pagespeed.ic.sgEVS1VDoh.webp', 'Home Furniture 1', '100');
